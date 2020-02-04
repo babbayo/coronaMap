@@ -9,6 +9,7 @@
         "objectid": "1",
         "patientid": "1",
         "patientseq" : "1",
+        "city": "인천",
         "status": "DETAILED"
       },
       "geometry": {
@@ -26,6 +27,7 @@
         "objectid": "2",
         "patientid": "1",
         "patientseq" : "2",
+        "city": "인천",
         "status": "DETAILED"
       },
       "geometry": {
@@ -43,6 +45,7 @@
         "objectid": "3",
         "patientid": "2",
         "patientseq" : "1",
+        "city": "김포",
         "status": "DETAILED"
       },
       "geometry": {
@@ -60,23 +63,25 @@
         "objectid": "4",
         "patientid": "2",
         "patientseq" : "2",
+        "city": "서울",
         "status": "SUMMARY"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-         126.4304712,37.5637818
+          126.9923613,37.5692228
         ]
       }
     },
      {
       "type": "Feature",
       "properties": {
-        "description": "23일 보건소 선백진료소에서 검사 실시한 결과 확진, 국립중앙의료원 격리 치료",
+        "description": "22일 개인 렌터카 이용(오후1시경 강남구 소재  ",
         "name": "서울 자택",
         "objectid": "5",
-        "patientid": "2",
-        "patientseq" : "3",
+        "patientid": "3",
+        "patientseq" : "1",
+        "city": "서울",
         "status": "DETAILED"
       },
       "geometry": {

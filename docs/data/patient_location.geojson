@@ -8,12 +8,81 @@
         "name": "인천공항",
         "objectid": "1",
         "patientid": "1",
-        "patientseq" : "1"
+        "patientseq" : "1",
+        "status": "DETAILED"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
          126.438507,37.460195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "인천공항검역소, 검역 과정에서 증상확인하고 인천의료원에 격리 치료. 검사결과 20일 확진",
+        "name": "인천의료원",
+        "objectid": "2",
+        "patientid": "1",
+        "patientseq" : "2",
+        "status": "DETAILED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+        126.659770, 37.4785256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "1월 22일 중국 우한시 근무하는 한국인 남성(55) 상하이 경유해 김포공항 입국",
+        "name": "김포공항",
+        "objectid": "3",
+        "patientid": "2",
+        "patientseq" : "1",
+        "status": "DETAILED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7857406,37.5586542
+        ]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "description": "22일 서울 자택에 체류 (택시로 이동)",
+        "name": "서울 자택",
+        "objectid": "4",
+        "patientid": "2",
+        "patientseq" : "2",
+        "status": "SUMMARY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         126.4304712,37.5637818
+        ]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "description": "23일 보건소 선백진료소에서 검사 실시한 결과 확진, 국립중앙의료원 격리 치료",
+        "name": "서울 자택",
+        "objectid": "5",
+        "patientid": "2",
+        "patientseq" : "3",
+        "status": "DETAILED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         126.9969183,37.5676658
         ]
       }
     }

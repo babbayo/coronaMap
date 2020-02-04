@@ -1,0 +1,20 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "1월 19일 중국 우한시 거주하는 중국인 여성(35) 인천공항 입국"
+        "name": "인천공항",
+        "objectid": "1",
+        "patientId": "1",
+        "patientLocation" : "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.460195,126.438507
+        ]
+      }
+    }
+}

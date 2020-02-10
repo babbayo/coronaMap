@@ -6,11 +6,10 @@
       "properties": {
         "description": "1월 19일 중국 우한시 거주하는 중국인 여성(35) 인천공항 입국",
         "name": "인천공항",
-        "objectid": "1",
-        "patientid": "1",
-        "patientseq" : "1",
+        "patientid": 1,
         "city": "인천",
-        "status": "DETAILED"
+        "level": 5,
+        "date": "20200119"
       },
       "geometry": {
         "type": "Point",
@@ -18,17 +17,15 @@
          126.438507,37.460195
         ]
       }
-    },
-    {
+    }, {
       "type": "Feature",
       "properties": {
-        "description": "인천공항검역소, 검역 과정에서 증상확인하고 인천의료원에 격리 치료. 검사결과 20일 확진",
+        "description": "국가지정입원치료병상(인천의료원)으로 이송",
         "name": "인천의료원",
-        "objectid": "2",
-        "patientid": "1",
-        "patientseq" : "2",
+        "patientid": 1,
         "city": "인천",
-        "status": "DETAILED"
+        "level": 5,
+        "date": "20200119"
       },
       "geometry": {
         "type": "Point",
@@ -36,17 +33,15 @@
         126.659770, 37.4785256
         ]
       }
-    },
-    {
+    }, {
       "type": "Feature",
       "properties": {
         "description": "1월 22일 중국 우한시 근무하는 한국인 남성(55) 상하이 경유해 김포공항 입국",
         "name": "김포공항",
-        "objectid": "3",
-        "patientid": "2",
-        "patientseq" : "1",
+        "patientid": 2,
         "city": "김포",
-        "status": "DETAILED"
+        "level": 5,
+        "date": "20200122"
       },
       "geometry": {
         "type": "Point",
@@ -54,17 +49,16 @@
           126.7857406,37.5586542
         ]
       }
-    },
-     {
+    }, {
       "type": "Feature",
       "properties": {
-        "description": "22일 서울 자택에 체류 (택시로 이동)",
+        "description": "1월 22일 자택에 체류 (택시로 이동)",
         "name": "서울 자택",
-        "objectid": "4",
-        "patientid": "2",
-        "patientseq" : "2",
+        "patientid": 2,
         "city": "서울",
-        "status": "SUMMARY"
+        "level": 4,
+        "date": "20200122",
+        "dateEnd": "20200123"
       },
       "geometry": {
         "type": "Point",
@@ -72,22 +66,1266 @@
           126.9923613,37.5692228
         ]
       }
-    },
-     {
+    }, {
       "type": "Feature",
       "properties": {
-        "description": "22일 개인 렌터카 이용(오후1시경 강남구 소재  ",
-        "name": "서울 자택",
-        "objectid": "5",
-        "patientid": "3",
-        "patientseq" : "1",
+        "description": "23일 보건소 선별진료소에서 검사 실시한 결과 확진, 국립중앙의료원 격리치료",
+        "name": "국립중앙의료원",
+        "patientid": 2,
         "city": "서울",
-        "status": "DETAILED"
+        "level": 5,
+        "date": "20200123"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
          126.9969183,37.5676658
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "20일 국내로 귀국 (개인 렌터카 이용)",
+        "name": "인천공항",
+        "patientid": 3,
+        "city": "인천",
+        "level": 4,
+        "date": "20200120",
+        "reason": "https://www.mk.co.kr/news/society/view/2020/01/82735/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.438507,37.460195
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "22일 서울 강남구 글로비 성형외과 방문",
+        "name": "서울 강남구 글로비 성형외과",
+        "patientid": 3,
+        "city": "서울",
+        "level": 4,
+        "date": "20200122",
+        "dateEnd": "20200123"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         127.0257595,37.524355
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "22일 서울 강남구 한일관",
+        "name": "서울 강남구 한일관",
+        "patientid": 3,
+        "city": "서울",
+        "level": 5,
+        "date": "20200122"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         126.8994684,37.5458002
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "22일 서울 강남구 소재 호텔 뉴브에 투숙",
+        "name": "서울 강남구 호텔 뉴브",
+        "patientid": 3,
+        "city": "서울",
+        "level": 4,
+        "date": "20200122"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         127.0469452,37.5029926
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "23일 GS 한강잠원 1호점 이용",
+        "name": "서울 GS 한강잠원 1호점",
+        "patientid": 3,
+        "city": "서울",
+        "level": 5,
+        "date": "20200123"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         127.013733,37.5243968
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "한인관 본점 이용",
+        "name": "서울 압구정 한인관",
+        "patientid": 3,
+        "city": "서울",
+        "level": 4,
+        "date": "20200123"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         127.0302897,37.5277368
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "일산 소재 음식점,카페 이용, 일산 모친 자택에 체류",
+        "name": "고양시 일산",
+        "patientid": 3,
+        "city": "고양",
+        "level": 4,
+        "date": "20200124",
+        "dateEnd": "20200125"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         126.755039,37.673725
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "20일 인천공항 도착 (중국우한에서 출발)",
+        "name": "인천공항",
+        "patientid": 4,
+        "city": "인천",
+        "level": 5,
+        "date": "20200120"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.438507,37.460195
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "20일 공항버스 이용하여 송탄 시외버스터미널 도착 및 자택 체류",
+        "name": "평택 송탄시외버스터미널",
+        "patientid": 4,
+        "city": "평택",
+        "level": 5,
+        "date": "20200120",
+        "dateEnd": "20200124"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0561043,37.0796065
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "20일 공항버스 이용하여 송탄 시외버스터미널 도착 및 자택 체류",
+        "name": "평택 송탄시외버스터미널",
+        "patientid": 4,
+        "city": "평택",
+        "level": 5,
+        "date": "20200120",
+        "dateEnd": "20200124"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.0796065,127.0561043
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "21일,25일 365연합의원",
+        "name": "평택 365연합의원",
+        "patientid": 4,
+        "city": "평택",
+        "level": 5,
+        "date": "20200121",
+        "dateEnd": "20200125"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         127.0551314,37.0520115
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "26일 평택 보건소 에서 폐렴진단",
+        "name": "평택 보건소",
+        "patientid": 4,
+        "city": "평택",
+        "level": 5,
+        "date": "20200126"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9872803,37.0519909
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "26일 분당서울대 병원 확진",
+        "name": "성남 분당서울대병원",
+        "patientid": 4,
+        "city": "성남",
+        "level": 5,
+        "date": "20200126"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1212433,37.3513241
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "24일 인천공항 입국(중국 우한 출발)",
+        "name": "인천공항",
+        "patientid": 5,
+        "city": "인천",
+        "level": 5,
+        "date": "20200124"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.438507,37.460195
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "24일 서울 성북구 자택 체류",
+        "name": "서울 성북구 자택",
+        "patientid": 5,
+        "city": "서울",
+        "level": 4,
+        "date": "20200124"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.016318,37.592600
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "25일 서울 성북구 성신 CGV",
+        "name": "서울 성북구 성신 CGV",
+        "patientid": 5,
+        "city": "서울",
+        "level": 5,
+        "date": "20200125"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0148596,37.5925601
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "26일 서울 성북구 다이소(성신여대점)",
+        "name": "서울 성북구 자택",
+        "patientid": 5,
+        "city": "서울",
+        "level": 5,
+        "date": "20200126"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0146332,37.5918099
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "26일 선녀보살(역술인)",
+        "name": "서울 성동구 선녀보살",
+        "patientid": 5,
+        "city": "서울",
+        "level": 4,
+        "date": "20200126"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0273455,37.5639923
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "26일 선호케어(마사지숍)",
+        "name": "서울 성복구 선호케어",
+        "patientid": 5,
+        "city": "서울",
+        "level": 5,
+        "date": "20200126"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0125816,37.5901379
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "26일 성북구 숙소근처 이마트24, GS25, 식자재유통센터, 두꺼비마트, 럭키마트",
+        "name": "서울 성복구 숙소 근처 마켓",
+        "patientid": 5,
+        "city": "서울",
+        "level": 4,
+        "date": "20200126",
+        "dateEnd": "20200127"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.016318,37.592600
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "27일 성북구 돈암동 떡볶이",
+        "name": "서울 성복구 돈암동 떡볶이",
+        "patientid": 5,
+        "city": "서울",
+        "level": 4,
+        "date": "20200127"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0167097,37.5920573
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "28일 예쁠래뷰티라인(미용시설)",
+        "name": "서울 성복구 예쁠래뷰티라인",
+        "patientid": 5,
+        "city": "서울",
+        "level": 5,
+        "date": "20200128"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0162313,37.5916694
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "28일 중랑구 가락홈마트",
+        "name": "서울 중랑구 가락홈마트",
+        "patientid": 5,
+        "city": "서울",
+        "level": 5,
+        "date": "20200128"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0849009,37.5851368
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "28일 중랑구 이가네바지락칼국수",
+        "name": "서울 중랑구 이가네바지락칼국수",
+        "patientid": 5,
+        "city": "서울",
+        "level": 4,
+        "date": "20200128"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0840857,37.5887059
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "28일 강남구 웨딩숍",
+        "name": "서울 강남구 웨딩숍",
+        "patientid": 5,
+        "city": "서울",
+        "level": 4,
+        "date": "20200128"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0443546,37.523674
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "29일 중랑구 보건소 검진",
+        "name": "서울 중랑구 보건소",
+        "patientid": 5,
+        "city": "서울",
+        "level": 4,
+        "date": "20200129"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0905041,37.6063846
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "30일 서울의료원 격리치료",
+        "name": "서울 중랑구 서울의료원",
+        "patientid": 5,
+        "city": "서울",
+        "level": 4,
+        "date": "20200130"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0959779,37.6127725
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "22일 서울 강남구 한일관 에서 3번째 환자와 접촉",
+        "name": "서울 강남구 한일관",
+        "patientid": 6,
+        "city": "서울",
+        "level": 5,
+        "date": "20200122"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         126.8994684,37.5458002
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "26일 서울 명룬동 자택 체류, 명륜교회 방문",
+        "name": "서울 종로구 명륜동",
+        "patientid": 6,
+        "city": "서울",
+        "level": 4,
+        "date": "20200126"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         126.9976392,37.5863383
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "30일 서울대 병원 격리",
+        "name": "서울 종로구 명륜동",
+        "patientid": 6,
+        "city": "서울",
+        "level": 5,
+        "date": "20200130"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         126.9950056,37.5793919
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "23일 인천공항 입국(중국 우한 출발)",
+        "name": "인천공항",
+        "patientid": 7,
+        "city": "인천",
+        "level": 5,
+        "date": "20200123"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.438507,37.460195
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "자택에 체류(보건소 구급차량 이용하여 보건소 이용)",
+        "name": "",
+        "patientid": 7,
+        "city": "",
+        "level": 3,
+        "date": "20200123",
+        "dateEnd": "20200130"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0959779,37.6127725
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "30일 서울의료원 격리치료",
+        "name": "서울 중랑구 서울의료원",
+        "patientid": 7,
+        "city": "서울",
+        "level": 4,
+        "date": "20200130"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0959779,37.6127725
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "23일 중국 우한에서 청도 거쳐 인천공항 입국",
+        "name": "인천공항",
+        "patientid": 8,
+        "city": "인천",
+        "level": 5,
+        "date": "20200123"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.438507,37.460195
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "24일 아들 자택에 체류 (아들 차량 이용)",
+        "name": "서울",
+        "patientid": 8,
+        "city": "서울",
+        "level": 4,
+        "date": "20200124",
+        "dateEnd": "20200125"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.438507,37.460195
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "25일 서울 서초구 소재 음식점에서 점심식사",
+        "name": "서울 서초구",
+        "patientid": 8,
+        "city": "서울",
+        "level": 4,
+        "date": "20200125"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9984927,37.4919628
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "25일 서울에서 전북 군산 소재 음식점에서 저녁식사(아들 차량 이용) 및 자택 체류",
+        "name": "전북 군산",
+        "patientid": 8,
+        "city": "전북",
+        "level": 4,
+        "date": "20200125"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7059607,35.9866939
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "26일 군산 일대 대중목욕탕(아센사우나)방문, 군산 소재 음식점 방문",
+        "name": "전북 군산",
+        "patientid": 8,
+        "city": "전북",
+        "level": 4,
+        "date": "20200126"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7059607,35.9866939
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "27일 군산 유남진내과 방문",
+        "name": "전북 군산",
+        "patientid": 8,
+        "city": "전북",
+        "level": 5,
+        "date": "20200127"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7117234,35.968128
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "28일 군산 군산의료원 방문",
+        "name": "전북 군산",
+        "patientid": 8,
+        "city": "전북",
+        "level": 5,
+        "date": "20200128"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7102658,35.954685
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "29일 군산 우리떡갈비에서 식사",
+        "name": "전북 군산",
+        "patientid": 8,
+        "city": "전북",
+        "level": 5,
+        "date": "20200129"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7033224,35.9760285
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "29일 군산 이마트 방문",
+        "name": "전북 군산",
+        "patientid": 8,
+        "city": "전북",
+        "level": 5,
+        "date": "20200129"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7326769,35.9827419
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "30일 원강대병원 내원, 입원 중 확진 판정",
+        "name": "전북 익산",
+        "patientid": 8,
+        "city": "전북",
+        "level": 5,
+        "date": "20200130",
+        "dateEnd": "20200131"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9574654,35.9643315
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "5번째 확진자와 접촉 통보 받고 자택에 체류",
+        "name": "서울",
+        "patientid": 9,
+        "city": "서울",
+        "level": 4,
+        "date": "20200130",
+        "dateEnd": "20200131"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0959779,37.6127725
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "31일 서울의료원 격리치료",
+        "name": "서울 중랑구 서울의료원",
+        "patientid": 9,
+        "city": "서울",
+        "level": 4,
+        "date": "20200131"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0959779,37.6127725
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "30일 경기도 고양시 일산 미용실(메종드아이어헤어 백석벨라시티점)",
+        "name": "고양 일산 메종드아이어헤어 백석벨라시티점 미용실",
+        "patientid": 10,
+        "city": "고양",
+        "level": 4,
+        "date": "20200130"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7893321,37.6419846
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "31일 6번째 확진자의 접촉자로 통보받고 자택 체류 하다 서울대병원이송",
+        "name": "서울대병원",
+        "patientid": 10,
+        "city": "서울",
+        "level": 4,
+        "date": "20200131"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9200954,37.4661339
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "30일 경기도 고양시 일산 미용실(메종드아이어헤어 백석벨라시티점)",
+        "name": "고양 일산 메종드아이어헤어 백석벨라시티점 미용실",
+        "patientid": 11,
+        "city": "고양",
+        "level": 4,
+        "date": "20200130"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7893321,37.6419846
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "31일 6번째 확진자의 접촉자로 통보받고 자택 체류 하다 서울대병원이송",
+        "name": "서울대병원",
+        "patientid": 11,
+        "city": "서울",
+        "level": 4,
+        "date": "20200131"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9200954,37.4661339
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "19일 일본 오사카에서 김포공항 입국",
+        "name": "김포공항",
+        "patientid": 12,
+        "city": "김포",
+        "level": 5,
+        "date": "20200119"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7857406,37.5586542
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "20일 서울 중구 신라면세점",
+        "name": "서울 중구 신라면세점",
+        "patientid": 12,
+        "city": "서울",
+        "level": 4,
+        "date": "20200120"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.004891,37.5571713
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "20일 택시로 이동하여 서울시 중구 소재 음식점, 남대문 쇼핑",
+        "name": "서울 중구",
+        "patientid": 12,
+        "city": "서울",
+        "level": 4,
+        "date": "20200120"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9200954,37.4661339
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "경기도 부천시 CGV 부천역점 영화 관람 ",
+        "name": "경기도 부천시 CGV",
+        "patientid": 12,
+        "city": "부천",
+        "level": 5,
+        "date": "20200120"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.748907,37.4943872
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "경기도 부천시 왕중왕 음식점 방문",
+        "name": "경기도 부천시 왕중왕",
+        "patientid": 12,
+        "city": "부천",
+        "level": 5,
+        "date": "20200120"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7781809,37.4827854
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "21일 인천출입국사무소 이동(지하철, 택시 이용)",
+        "name": "경기도 부천시 왕중왕",
+        "patientid": 12,
+        "city": "인천",
+        "level": 5,
+        "date": "20200121"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6294374,37.4617728
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "경기도 인천 남구 친구집에 체류 (택시 이용)",
+        "name": "경기도 인천 남구",
+        "patientid": 12,
+        "city": "인천",
+        "level": 4,
+        "date": "20200121"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6395829,37.463394
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "경기도 부천시 부천종로약국방문 (부천역 근처)",
+        "name": "경기도 부천시 부천종로약국",
+        "patientid": 12,
+        "city": "부천",
+        "level": 5,
+        "date": "20200122",
+        "reason": "https://bucheon.go.kr/site/program/board/basicboard/view?currentpage=2&menuid=148004001007&pagesize=10&boardtypeid=27426&encid=JhYDZDTbcLAhr4pUWHEQvQ=="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7796086,37.4835723
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "약국 방문후 지하철 이용하여 서울역까지 지하철 이용",
+        "name": "서울역",
+        "patientid": 12,
+        "city": "서울",
+        "level": 5,
+        "date": "20200122",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.505093,126.5580995
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "서울역에서 KTX이용하여 강릉도착",
+        "name": "강원도 강릉역",
+        "patientid": 12,
+        "city": "강릉",
+        "level": 5,
+        "date": "20200122",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.8994578,37.7637815
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "강원도 강를시 소재 음식점,까페 이용(택시이용)",
+        "name": "강원도 강릉시",
+        "patientid": 12,
+        "city": "강릉",
+        "level": 4,
+        "date": "20200122",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.8994578,37.7637815
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "강원도 강릉시 소재 숙소(썬크루즈리조트)이용",
+        "name": "강원도 강릉시 썬크루즈리조트",
+        "patientid": 12,
+        "city": "강릉",
+        "level": 5,
+        "date": "20200122",
+        "dateEnd": "20200123"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0416614,37.6834634
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "숙소에서 강릉역 이동",
+        "name": "강원도 강릉역",
+        "patientid": 12,
+        "city": "강릉",
+        "level": 5,
+        "date": "20200123",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.8994578,37.7637815
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "강릉에서 KTX이용하여 서울역 도착",
+        "name": "서울역",
+        "patientid": 12,
+        "city": "서울",
+        "level": 5,
+        "date": "20200123",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.505093,126.5580995
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "서울역에서 지하철 이용하여 부천시 소재 의료기관(부천속내과) 방문",
+        "name": "부천시 부천속내과",
+        "patientid": 12,
+        "city": "서울",
+        "level": 5,
+        "date": "20200123",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7759138,37.4836803
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "지하철 이용하여 수원역 이동, 택시 이용하여 수원 소재 친척집 방문",
+        "name": "수원시 수원역",
+        "patientid": 12,
+        "city": "서울",
+        "level": 4,
+        "date": "20200124",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.997219,37.2664398
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "버스 이용하여 군포 소재 친적집 방문",
+        "name": "군포시",
+        "patientid": 12,
+        "city": "서울",
+        "level": 4,
+        "date": "20200124",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9307803,37.358019
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "택시 이용하여 군포 소재 의료기관(더건강한내과)방문",
+        "name": "군포시",
+        "patientid": 12,
+        "city": "서울",
+        "level": 4,
+        "date": "20200125",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9287357,37.3591426
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "군포 소재 약국(현대약국)방문",
+        "name": "군포시",
+        "patientid": 12,
+        "city": "서울",
+        "level": 4,
+        "date": "20200125",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9287711,37.3591183
+        ]
+      } 
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "경기도 부천시 CGV 부천역점 영화 관람 ",
+        "name": "경기도 부천시 CGV",
+        "patientid": 12,
+        "city": "부천",
+        "level": 5,
+        "date": "20200126"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.748907,37.4943872
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "서울시 중구 소재 음식점 방문(지하철,택시 이용)",
+        "name": "서울시 중구",
+        "patientid": 12,
+        "city": "서울",
+        "level": 4,
+        "date": "20200127"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0055098,37.5571713
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "부천시 소재 의료기관(부천속내과) 방문",
+        "name": "부천시 부천속내과",
+        "patientid": 12,
+        "city": "부천",
+        "level": 5,
+        "date": "20200128",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7759138,37.4836803
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "부천시 소재 약국(서전약국) 방문",
+        "name": "부천시 서전약국",
+        "patientid": 12,
+        "city": "부천",
+        "level": 5,
+        "date": "20200128",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7759576,37.4837166
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "부천시 부천보건소 선별진료소 방문",
+        "name": "부천시 부천보건소",
+        "patientid": 12,
+        "city": "부천",
+        "level": 5,
+        "date": "20200130",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         126.778788,37.4941654
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "순천향대학교 부속 부천병원 방문",
+        "name": "순천향대학교 부속 부천병원",
+        "patientid": 12,
+        "city": "부천",
+        "level": 5,
+        "date": "20200130",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         126.7606649,37.4983977
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "26일 분당서울대 병원 확진",
+        "name": "성남 분당서울대병원",
+        "patientid": 12,
+        "city": "성남",
+        "level": 5,
+        "date": "20200130"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1212433,37.3513241
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "31일 우한교민 1차 귀국후 격리조치 (김포공항)",
+        "name": "김포공항",
+        "patientid": 13,
+        "city": "김포",
+        "level": 5,
+        "date": "20200131",
+        "reason": "https://news.joins.com/article/23695862"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7857406,37.5586542
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "description": "국립중앙의료원에 격리 조치",
+        "name": "서울 국립중앙의료원",
+        "patientid": 13,
+        "city": "서울",
+        "level": 5,
+        "date": "20200202"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0034702,37.5672412
         ]
       }
     }

@@ -1014,7 +1014,7 @@
         "patientid": 12,
         "city": "서울",
         "level": 5,
-        "date": "20200122",
+        "date": "20200122"
       },
       "geometry": {
         "type": "Point",
@@ -1030,7 +1030,7 @@
         "patientid": 12,
         "city": "강릉",
         "level": 5,
-        "date": "20200122",
+        "date": "20200122"
       },
       "geometry": {
         "type": "Point",
@@ -1046,7 +1046,7 @@
         "patientid": 12,
         "city": "강릉",
         "level": 4,
-        "date": "20200122",
+        "date": "20200122"
       },
       "geometry": {
         "type": "Point",
@@ -1079,7 +1079,7 @@
         "patientid": 12,
         "city": "강릉",
         "level": 5,
-        "date": "20200123",
+        "date": "20200123"
       },
       "geometry": {
         "type": "Point",
@@ -1095,7 +1095,7 @@
         "patientid": 12,
         "city": "서울",
         "level": 5,
-        "date": "20200123",
+        "date": "20200123"
       },
       "geometry": {
         "type": "Point",
@@ -1111,7 +1111,7 @@
         "patientid": 12,
         "city": "서울",
         "level": 5,
-        "date": "20200123",
+        "date": "20200123"
       },
       "geometry": {
         "type": "Point",
@@ -1127,7 +1127,7 @@
         "patientid": 12,
         "city": "서울",
         "level": 4,
-        "date": "20200124",
+        "date": "20200124"
       },
       "geometry": {
         "type": "Point",
@@ -1143,7 +1143,7 @@
         "patientid": 12,
         "city": "서울",
         "level": 4,
-        "date": "20200124",
+        "date": "20200124"
       },
       "geometry": {
         "type": "Point",
@@ -1159,7 +1159,7 @@
         "patientid": 12,
         "city": "서울",
         "level": 4,
-        "date": "20200125",
+        "date": "20200125"
       },
       "geometry": {
         "type": "Point",
@@ -1175,14 +1175,14 @@
         "patientid": 12,
         "city": "서울",
         "level": 4,
-        "date": "20200125",
+        "date": "20200125"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           126.9287711,37.3591183
         ]
-      } 
+      }
     }, {
       "type": "Feature",
       "properties": {
@@ -1223,7 +1223,7 @@
         "patientid": 12,
         "city": "부천",
         "level": 5,
-        "date": "20200128",
+        "date": "20200128"
       },
       "geometry": {
         "type": "Point",
@@ -1239,7 +1239,7 @@
         "patientid": 12,
         "city": "부천",
         "level": 5,
-        "date": "20200128",
+        "date": "20200128"
       },
       "geometry": {
         "type": "Point",
@@ -1255,7 +1255,7 @@
         "patientid": 12,
         "city": "부천",
         "level": 5,
-        "date": "20200130",
+        "date": "20200130"
       },
       "geometry": {
         "type": "Point",
@@ -1271,7 +1271,7 @@
         "patientid": 12,
         "city": "부천",
         "level": 5,
-        "date": "20200130",
+        "date": "20200130"
       },
       "geometry": {
         "type": "Point",
